@@ -20,6 +20,7 @@ const BackgroundTask = () => {
         21, // 51 minutes
         0 // 0 seconds
       );
+      
       const timeUntilTarget = targetDate.getTime() - currentDate.getTime();
     
       const backgroundTimerId = BackgroundTimer.setTimeout(async () => {
